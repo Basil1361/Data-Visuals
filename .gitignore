@@ -1,0 +1,14 @@
+Virtual/
+.venv/
+venv/
+env/
+*/.venv/
+*/venv/
+*/env/
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
