@@ -47,3 +47,14 @@ venv.bak/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore vendored/third-party code in totals
+vendor/**          linguist-vendored
+third_party/**     linguist-vendored
+
+# Ignore generated code (protobuf, migrations, etc.)
+**/*.pb.go         linguist-generated
+**/migrations/**   linguist-generated
+
+# Treat some files as another language (rare, but possible)
+# path/to/file      linguist-language=C++
